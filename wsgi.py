@@ -1,5 +1,5 @@
 """
-WSGI config for gettingstarted project.
+WSGI config for DAT project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
