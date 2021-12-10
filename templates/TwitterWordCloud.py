@@ -98,4 +98,4 @@ def submit():
 if __name__ == '__main__':
     from waitress import serve
     serve(app, host="https://covid-19-twitter-api.herokuapp.com/", port=8080)
-
+    app.run()
