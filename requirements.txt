@@ -1,3 +1,11 @@
 django
 gunicorn
 django-heroku
+tweepy
+pandas
+flask
+bs4
+nltk.tokenize
+re
+wordcloud
+matplotlib.pyplot
