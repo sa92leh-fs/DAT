@@ -16,10 +16,10 @@ import matplotlib.pyplot as plt
 token = WordPunctTokenizer()
 #picfolder = os.path.join('Project','templates')
 #app.config['UPLOAD_FOLDER'] = picfolder
-consumer_key = "czjmPINpFQj6KeS06Aelyu7IV" 
-consumer_secret = "And7NNiRSmTWBPGoWQ7P67Bs90SKCTJcdSo29RiYrabVrKSdov"
-access_token = "390017143-aFAyz2FmIvzWPe7GEGBR8H9DyO2kmW8qrxHhBTUP"
-access_token_secret = "MU7XDR7D8HPgsmodLsc4qISAJlSFJwmofXR8AD2ba3dRw"
+consumer_key = "xhbrhIPBLr0k910oKStDICSyn"
+consumer_secret = "gLzQlqatICTVuVWFmJhqeJ3bCy9No23ID34V8ONDQINqvBowm0"
+access_token = "730913965-IUdgzRmAjS6MhyjBOYdXgsgXLUdeqQAe6gnJai6q"
+access_token_secret = "Lsbhzry2YPlasV3KGDvMOgCQMFaKXd5kgLeSy48x7vegi"
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth, wait_on_rate_limit=True)
@@ -96,6 +96,5 @@ def submit():
     return render_template("Twitter.html",image = full_filename,Hashtag=Hashtag,Tweets=Tweets)
 
 if __name__ == '__main__':
-    from waitress import serve
-    serve(app, host="0.0.0.0", port=8080)
+    run.app(debug=True)
 
