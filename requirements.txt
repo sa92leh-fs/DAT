@@ -5,7 +5,7 @@ tweepy
 pandas
 flask
 bs4
-nltk.tokenize
+nltk
 re
 wordcloud
 matplotlib.pyplot
