@@ -7,4 +7,4 @@ flask
 bs4
 nltk
 wordcloud
-matplotlib.pyplot
+matplotlib
