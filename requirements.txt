@@ -10,3 +10,4 @@ wordcloud
 matplotlib
 waitress
 beautifulsoup4
+lxml
