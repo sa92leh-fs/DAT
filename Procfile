@@ -1,1 +1,1 @@
-web: gunicorn DAT.wsgi
+web: gunicorn TwitterWordCloud.wsgi --log-file -
