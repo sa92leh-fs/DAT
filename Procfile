@@ -1,1 +1,1 @@
-web: gunicorn TwitterWordCloud.wsgi --log-file -
+web: gunicorn app:app
