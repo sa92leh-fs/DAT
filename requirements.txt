@@ -6,6 +6,5 @@ pandas
 flask
 bs4
 nltk
-re
 wordcloud
 matplotlib.pyplot
