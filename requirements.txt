@@ -8,3 +8,4 @@ bs4
 nltk
 wordcloud
 matplotlib
+waitress
